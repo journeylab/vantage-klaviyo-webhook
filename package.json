@@ -1,0 +1,17 @@
+{
+  "name": "vantage-klaviyo-webhook",
+  "version": "1.0.0",
+  "description": "Klaviyo webhook integration for Webflow Sweepstakes 2025 form",
+  "main": "server/klaviyo-webhook.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
